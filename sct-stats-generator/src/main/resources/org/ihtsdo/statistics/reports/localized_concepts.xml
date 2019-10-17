@@ -10,20 +10,20 @@
 		<name>createLocalizedConceptStatistics()</name>
 	</storedProcedure>
 	<outputFile>
-	<file>LocalizedConceptStatistics.csv</file>
-	<reportHeader>id,term,TotalLocalized,PercentOfHierarchyTotal,NewLocalizedConcepts,PercentOfNewLocalizedTotal</reportHeader>
-	<select>
-	<tableName>cptRootLevel_table6</tableName>
-	</select>
-	<select>
-	<tableName>cptFirstLevel_table6</tableName>
-	</select>
+		<file>LocalizedConceptStatistics.csv</file>
+		<reportHeader>id,term,TotalLocalized,PercentOfHierarchyTotal,NewLocalizedConcepts,PercentOfNewLocalizedTotal</reportHeader>
+		<select>
+			<tableName>cptRootLevel_table6</tableName>
+		</select>
+		<select>
+			<tableName>cptFirstLevel_table6</tableName>
+		</select>
 	</outputFile>
 	<outputDetailFile>
-	<file>LocalizedConceptDetails.csv</file>
-	<reportHeader>Hierarchy,Id,Term,Condition</reportHeader>
-	<storedProcedure>
-	<name>getLocalizedConceptDetails()</name>
-	</storedProcedure>
+		<file>LocalizedConceptDetails.csv</file>
+		<reportHeader>Hierarchy,Id,Term,Condition</reportHeader>
+		<storedProcedure>
+			<name>getLocalizedConceptDetails()</name>
+		</storedProcedure>
 	</outputDetailFile>
 </reportConfig>

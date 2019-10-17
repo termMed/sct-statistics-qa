@@ -74,7 +74,7 @@ public class Runner {
 	 */
 	public static void main(String[] args){
 
-		logger=new ProcessLogger();
+		logger=new org.ihtsdo.statistics.runner.ProcessLogger();
 		if (args.length==0){
 			logger.logInfo("Error happened getting params. Params file doesn't exist");
 			System.exit(0);

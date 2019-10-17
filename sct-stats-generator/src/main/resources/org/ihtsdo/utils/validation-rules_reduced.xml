@@ -142,97 +142,38 @@
 				<regex>[\w]{8}-[\w]{4}-[\w]{4}-[\w]{4}-[\w]{12}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}$</regex>
 			</contentRule>
 		</file>
-		<!-- <file>
-			<fileType>rf2-refinability</fileType>
-			<namePattern>
-				<regex>.*Refinability.*</regex>
-			</namePattern>
-			<nameRule>
-				<regex>.*Refinability.*</regex>
-			</nameRule>
-			<headerRule>
-				<regex>id\\teffectiveTime\\tactive\\tmoduleId\\tref[sS]etId\\treferencedComponentId\\tvalueId$</regex>
-			</headerRule>
-			<contentRule>
-				<regex>[\w]{8}-[\w]{4}-[\w]{4}-[\w]{4}-[\w]{12}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}$</regex>
-			</contentRule>
-		</file> -->
-		<!-- Commented to avoid match with relationships
-			<file>
-			<fileType>rf2-qualifier</fileType>
-			<namePattern>
-				<regex>.*Qualifier.*</regex>
-			</namePattern>
-			<nameRule>
-				<regex>.*Qualifier.*</regex>
-			</nameRule>
-			<headerRule>
-				<regex>id\\teffectiveTime\\tactive\\tmoduleId\\tsourceId\\tdestinationId\\trelationshipGroup\\ttypeId\\tcharacteristicTypeId\\tmodifierId$</regex>
-			</headerRule>
-			<contentRule>
-				<regex>\d{3\,}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}\\t\d{1\,3}\\t\d{3\,}\\t((\-1)|(\d{1\,}))\\t\d{3\,}$</regex>
-			</contentRule>
-		</file> -->
-		<!-- <file>
-			<fileType>rf2-componenthistory</fileType>
-			<namePattern>
-				<regex>.*ComponentHistory.*</regex>
-			</namePattern>
-			<nameRule>
-				<regex>.*ComponentHistory.*</regex>
-			</nameRule>
-			<headerRule>
-				<regex>COMPONENTID\\tRELEASEVERSION\\tCHANGETYPE\\tSTATUS\\tREASON$</regex>
-			</headerRule>
-			<contentRule>
-				<regex>\d{3\,}\\t\d{3\,}\\t\d{1}\\t\d{1}\\t.*$</regex>
-			</contentRule>
-		</file> -->
-		<!-- <file>
-			<fileType>rf2-historicalrelationshipidentifiers</fileType>
-			<namePattern>
-				<regex>.*HistoricalRelationshipIdentifiers.*</regex>
-			</namePattern>
-			<nameRule>
-				<regex>.*HistoricalRelationshipIdentifiers.*</regex>
-			</nameRule>
-			<headerRule>
-				<regex>id\\teffectiveTime\\tactive\\tmoduleId\\tref[sS]etId\\treferencedRefsetMemberId\\tvalue$</regex>
-			</headerRule>
-			<contentRule>
-				<regex>[\w]{8}-[\w]{4}-[\w]{4}-[\w]{4}-[\w]{12}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t[\w]{8}-[\w]{4}-[\w]{4}-[\w]{4}-[\w]{12}\\t[\w]{8}-[\w]{4}-[\w]{4}-[\w]{4}-[\w]{12}\\t\d{3\,}$</regex>
-			</contentRule>
-		</file> -->
-		<!-- <file>
-			<fileType>rf2-retiredisarelationship</fileType>
-			<namePattern>
-				<regex>.*RetiredIsaRelationship.*</regex>
-			</namePattern>
-			<nameRule>
-				<regex>.*RetiredIsaRelationship.*</regex>
-			</nameRule>
-			<headerRule>
-				<regex>id\\teffectiveTime\\tactive\\tmoduleId\\tsourceId\\tdestinationId\\trelationshipGroup\\ttypeId\\tcharacteristicTypeId\\tmodifierId$</regex>
-			</headerRule>
-			<contentRule>
-				<regex>\d{3\,}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}\\t\d{1\,3}\\t\d{3\,}\\t((\-1)|(\d{1\,}))\\t\d{3\,}$</regex>
-			</contentRule>
-		</file> -->
-		<!-- <file>
-			<fileType>rf2-retiredstatedisarelationship</fileType>
-			<namePattern>
-				<regex>.*RetiredStatedIsaRelationship.*</regex>
-			</namePattern>
-			<nameRule>
-				<regex>.*RetiredStatedIsaRelationship.*</regex>
-			</nameRule>
-			<headerRule>
-				<regex>id\\teffectiveTime\\tactive\\tmoduleId\\tsourceId\\tdestinationId\\trelationshipGroup\\ttypeId\\tcharacteristicTypeId\\tmodifierId$</regex>
-			</headerRule>
-			<contentRule>
-				<regex>\d{3\,}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}\\t\d{1\,3}\\t\d{3\,}\\t((\-1)|(\d{1\,}))\\t\d{3\,}$</regex>
-			</contentRule>
-		</file> -->
+		<!-- <file> <fileType>rf2-refinability</fileType> <namePattern> <regex>.*Refinability.*</regex> 
+			</namePattern> <nameRule> <regex>.*Refinability.*</regex> </nameRule> <headerRule> 
+			<regex>id\\teffectiveTime\\tactive\\tmoduleId\\tref[sS]etId\\treferencedComponentId\\tvalueId$</regex> 
+			</headerRule> <contentRule> <regex>[\w]{8}-[\w]{4}-[\w]{4}-[\w]{4}-[\w]{12}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}$</regex> 
+			</contentRule> </file> -->
+		<!-- Commented to avoid match with relationships <file> <fileType>rf2-qualifier</fileType> 
+			<namePattern> <regex>.*Qualifier.*</regex> </namePattern> <nameRule> <regex>.*Qualifier.*</regex> 
+			</nameRule> <headerRule> <regex>id\\teffectiveTime\\tactive\\tmoduleId\\tsourceId\\tdestinationId\\trelationshipGroup\\ttypeId\\tcharacteristicTypeId\\tmodifierId$</regex> 
+			</headerRule> <contentRule> <regex>\d{3\,}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}\\t\d{1\,3}\\t\d{3\,}\\t((\-1)|(\d{1\,}))\\t\d{3\,}$</regex> 
+			</contentRule> </file> -->
+		<!-- <file> <fileType>rf2-componenthistory</fileType> <namePattern> <regex>.*ComponentHistory.*</regex> 
+			</namePattern> <nameRule> <regex>.*ComponentHistory.*</regex> </nameRule> 
+			<headerRule> <regex>COMPONENTID\\tRELEASEVERSION\\tCHANGETYPE\\tSTATUS\\tREASON$</regex> 
+			</headerRule> <contentRule> <regex>\d{3\,}\\t\d{3\,}\\t\d{1}\\t\d{1}\\t.*$</regex> 
+			</contentRule> </file> -->
+		<!-- <file> <fileType>rf2-historicalrelationshipidentifiers</fileType> 
+			<namePattern> <regex>.*HistoricalRelationshipIdentifiers.*</regex> </namePattern> 
+			<nameRule> <regex>.*HistoricalRelationshipIdentifiers.*</regex> </nameRule> 
+			<headerRule> <regex>id\\teffectiveTime\\tactive\\tmoduleId\\tref[sS]etId\\treferencedRefsetMemberId\\tvalue$</regex> 
+			</headerRule> <contentRule> <regex>[\w]{8}-[\w]{4}-[\w]{4}-[\w]{4}-[\w]{12}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t[\w]{8}-[\w]{4}-[\w]{4}-[\w]{4}-[\w]{12}\\t[\w]{8}-[\w]{4}-[\w]{4}-[\w]{4}-[\w]{12}\\t\d{3\,}$</regex> 
+			</contentRule> </file> -->
+		<!-- <file> <fileType>rf2-retiredisarelationship</fileType> <namePattern> 
+			<regex>.*RetiredIsaRelationship.*</regex> </namePattern> <nameRule> <regex>.*RetiredIsaRelationship.*</regex> 
+			</nameRule> <headerRule> <regex>id\\teffectiveTime\\tactive\\tmoduleId\\tsourceId\\tdestinationId\\trelationshipGroup\\ttypeId\\tcharacteristicTypeId\\tmodifierId$</regex> 
+			</headerRule> <contentRule> <regex>\d{3\,}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}\\t\d{1\,3}\\t\d{3\,}\\t((\-1)|(\d{1\,}))\\t\d{3\,}$</regex> 
+			</contentRule> </file> -->
+		<!-- <file> <fileType>rf2-retiredstatedisarelationship</fileType> <namePattern> 
+			<regex>.*RetiredStatedIsaRelationship.*</regex> </namePattern> <nameRule> 
+			<regex>.*RetiredStatedIsaRelationship.*</regex> </nameRule> <headerRule> 
+			<regex>id\\teffectiveTime\\tactive\\tmoduleId\\tsourceId\\tdestinationId\\trelationshipGroup\\ttypeId\\tcharacteristicTypeId\\tmodifierId$</regex> 
+			</headerRule> <contentRule> <regex>\d{3\,}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}\\t\d{1\,3}\\t\d{3\,}\\t((\-1)|(\d{1\,}))\\t\d{3\,}$</regex> 
+			</contentRule> </file> -->
 		<file>
 			<fileType>rf2-subsets</fileType>
 			<namePattern>
@@ -398,21 +339,11 @@
 				<regex>\d{3\,}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t\d{3\,}\\t\w+\\t\d{3\,}\\t.+\\t\d{3\,}$</regex>
 			</contentRule>
 		</file>
-		<!-- <file>
-			<fileType>rf2-statedrelationship</fileType>
-			<namePattern>
-				<regex>.*StatedRelationship.*</regex>
-			</namePattern>
-			<nameRule>
-				<regex>.*StatedRelationship.*</regex>
-			</nameRule>
-			<headerRule>
-				<regex>id\\teffectiveTime\\tactive\\tmoduleId\\tsourceId\\tdestinationId\\trelationshipGroup\\ttypeId\\tcharacteristicTypeId\\tmodifierId$</regex>
-			</headerRule>
-			<contentRule>
-				<regex>\d{3\,}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}\\t\d{1\,3}\\t\d{3\,}\\t((\-1)|(\d{1\,}))\\t\d{3\,}$</regex>
-			</contentRule>
-		</file> -->
+		<!-- <file> <fileType>rf2-statedrelationship</fileType> <namePattern> <regex>.*StatedRelationship.*</regex> 
+			</namePattern> <nameRule> <regex>.*StatedRelationship.*</regex> </nameRule> 
+			<headerRule> <regex>id\\teffectiveTime\\tactive\\tmoduleId\\tsourceId\\tdestinationId\\trelationshipGroup\\ttypeId\\tcharacteristicTypeId\\tmodifierId$</regex> 
+			</headerRule> <contentRule> <regex>\d{3\,}\\t\d{8}\\t\d{1}\\t\d{3\,}\\t\d{3\,}\\t\d{3\,}\\t\d{1\,3}\\t\d{3\,}\\t((\-1)|(\d{1\,}))\\t\d{3\,}$</regex> 
+			</contentRule> </file> -->
 		<file>
 			<fileType>rf2-relationships</fileType>
 			<namePattern>

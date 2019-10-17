@@ -10,13 +10,13 @@
 		<name>createGeneralStatistics()</name>
 	</storedProcedure>
 	<outputFile>
-	<file>GENERAL_RELEASE_STATISTICS.csv</file>
-	<reportHeader>id,term,Concepts,PercentOfTotal,PercentOfSD,Descriptions,Relationships</reportHeader>
-	<select>
-	<tableName>cptRootLevel</tableName>
-	</select>
-	<select>
-	<tableName>cptFirstLevel</tableName>
-	</select>
+		<file>GENERAL_RELEASE_STATISTICS.csv</file>
+		<reportHeader>id,term,Concepts,PercentOfTotal,PercentOfSD,Descriptions,Relationships</reportHeader>
+		<select>
+			<tableName>cptRootLevel</tableName>
+		</select>
+		<select>
+			<tableName>cptFirstLevel</tableName>
+		</select>
 	</outputFile>
 </reportConfig>	
